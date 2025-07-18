@@ -4,7 +4,6 @@
 
 The goal of this task was to build a **production-ready and reusable machine learning pipeline** using the Telco Customer Churn dataset. The pipeline is designed to predict whether a customer will churn based on their demographic and service usage data.
 
----
 
 ##  Methodology / Approach
 
@@ -29,7 +28,6 @@ The goal of this task was to build a **production-ready and reusable machine lea
    - Evaluated models on test data using classification metrics
    - Exported the best-performing pipeline using 'joblib'
 
----
 
 ##  Key Results / Observations
 
@@ -38,7 +36,6 @@ The goal of this task was to build a **production-ready and reusable machine lea
 - The entire flow — from preprocessing to prediction — is encapsulated in a single, reusable 'scikit-learn' pipeline.
 - The final pipeline is saved as 'churn_pipeline.joblib' and can be used directly for inference in production environments.
 
----
 
 ##  Technologies Used
 
